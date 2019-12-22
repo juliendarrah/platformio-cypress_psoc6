@@ -10,7 +10,8 @@ JLink-EDU mini Debugger
 
 ## Setup
 * Copy the repo content under ~/.platformio/platforms/cypress_psoc6
-* Create a new PlatfomIO project folder
+* Open VSCode
+* Create a new PlatfomIO project folder by looking/selecting the CY8CPROTO-063-BLE board
 * Modify the platformio.ini as below
 * Create the launch.json file
 
