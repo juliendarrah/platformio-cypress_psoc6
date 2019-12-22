@@ -1,0 +1,17 @@
+{
+  "build": {
+    "cpu": "cortex-m4",
+    "f_cpu": "150000000L",
+    "mcu": "CYBLE-416045-02"
+  },
+  "frameworks": [
+    "mbed"
+  ],
+  "name": "Cypress PSoC6 BLE Prototyping Kit",
+  "upload": {
+    "maximum_ram_size": 294912,
+    "maximum_size": 1048576
+  },
+  "url": "https://os.mbed.com/platforms/CY8CKIT-062-BLE/",
+  "vendor": "Cypress"
+}

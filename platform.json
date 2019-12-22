@@ -1,0 +1,47 @@
+{
+  "name": "cypress_psoc6",
+  "title": "Cypress PSoC6",
+  "description": "Cypress PSoc6 32bit ARM",
+  "url": "http://www.freescale.com/webapp/sps/site/homepage.jsp?code=KINETIS",
+  "homepage": "http://platformio.org/platforms/freescalekinetis",
+  "license": "Apache-2.0",
+  "engines": {
+    "platformio": "<5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juliendarrah/platformio-cypress_psoc6.git"
+  },
+  "version": "4.5.0",
+  "packageRepositories": [
+    "https://dl.bintray.com/platformio/dl-packages/manifest.json",
+    "http://dl.platformio.org/packages/manifest.json"
+  ],
+  "frameworks": {
+    "mbed": {
+      "package": "framework-mbed",
+      "script": "builder/frameworks/mbed.py"
+    }
+  },
+  "packages": {
+    "toolchain-gccarmnoneeabi": {
+      "type": "toolchain",
+      "version": ">=1.60301.0,<1.80000.0"
+    },
+    "framework-mbed": {
+      "type": "framework",
+      "optional": true,
+      "version": "~5.51401.0"
+    },
+    "tool-pyocd": {
+      "type": "uploader",
+      "optional": true,
+      "version": "~0.801.0"
+    },
+    "tool-jlink": {
+      "type": "uploader",
+      "optional": true,
+      "version": "^1.63208.0"
+    }
+  }
+}
